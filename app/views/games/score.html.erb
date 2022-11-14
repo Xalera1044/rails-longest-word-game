@@ -1,0 +1,15 @@
+<h1>Results</h1>
+<p>This is your regular message</p>
+
+
+<ul>
+  <li>Attempt: <%= @attempt%></li>
+  <li>Translation: <%= @result[:translation]%></li>
+  <li>Time: <%= @result[:time]%></li>
+  <li>Message: <%= @result[:message]%></li>
+  <li>Score: <%= @result[:score]%></li>
+</ul>
+
+
+
+<%= link_to "new", root_path %>
